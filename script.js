@@ -26,7 +26,10 @@ for (let establishment of res.establishments) {
     if (authority && establishment.LocalAuthorityName.includes(authority)) {
         let rating = establishment.RatingValue
         console.log('Name: ' + chalk.blue(establishment.BusinessName));
-        console.log('Address Line 1: ' + establishment.AddressLine1);
+        
+        establishment.AddressLine1 ?
+          console.log('Address Line 1: ' + establishment.AddressLine1) : {};
+
         establishment.AddressLine2 ?
           console.log('Address Line 2: ' + establishment.AddressLine2) : {};
 

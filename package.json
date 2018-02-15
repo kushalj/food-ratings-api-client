@@ -1,0 +1,23 @@
+{
+  "name": "food-ratings-api-client",
+  "version": "0.0.1",
+  "description": "A (very) simple script to learn how to read data from api.ratings.food.gov.uk as the docs are not clear.",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kushalj/food-ratings-api-client.git"
+  },
+  "author": "Kushal Joshi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kushalj/food-ratings-api-client/issues"
+  },
+  "homepage": "https://github.com/kushalj/food-ratings-api-client#readme",
+  "dependencies": {
+    "chalk": "^2.3.1",
+    "xmlhttprequest": "^1.8.0"
+  }
+}
